@@ -28,7 +28,9 @@
   </tr>
    <tr>
     <td align="center">
-      <img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=ysa8497" alt="유승아 백준 티어" />
+      <a href="https://solved.ac/ysa8497">
+        <img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=ysa8497" alt="유승아 백준 티어" />
+      </a>
     </td>
   </tr>
 </table>
