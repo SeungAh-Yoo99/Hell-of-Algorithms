@@ -2,7 +2,7 @@
 
 ## ✅ 사전 규칙
 1. 자신의 Github username에 해당하는 branch로 이동
-2. <code>자신의 이름 폴더/사이트 명</code>에 문제번호로 파일 생성<br/>(ex. <code>김우리/BOJ/1234.java</code>, <code>김우리/programmers/123456.py</code>)
+2. <code>자신의 이름 폴더/사이트명</code>에 문제번호로 파일 생성<br/>(ex. <code>김우리/BOJ/1234.java</code>, <code>김우리/programmers/123456.py</code>)
 3. 생성한 파일 상단에 주석으로 아래 정보 입력<br/><code>문제 링크: </code><br/><code>시간: ms</code><br/><code>메모리: KB</code>
 4. 문제 풀이 코드 복붙 후 파일 저장
 
