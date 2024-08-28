@@ -52,8 +52,8 @@
       </a>
     </td>
     <td align="center">
-      <a href="https://github.com/">
-        <img src="https://github.com/.png" alt="공예진" width="150" height="150"/>
+      <a href="https://github.com/yaejinkong">
+        <img src="https://github.com/yaejinkong.png" alt="공예진" width="150" height="150"/>
       </a>
     </td>
     <td align="center">
@@ -79,7 +79,7 @@
       </a>
     </td>
      <td align="center">
-      <a href="https://github.com/">
+      <a href="https://github.com/yaejinkong">
         <b>공예진</b>
       </a>
     </td>
