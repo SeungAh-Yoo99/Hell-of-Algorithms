@@ -126,4 +126,4 @@
 <br />
 
 ## ℹ️ PR 규칙
-<a href="">바로가기</a>
+<a href="https://github.com/SeungAh-Yoo99/Hell-of-Algorithms/blob/main/PullRequest.md">바로가기</a>
