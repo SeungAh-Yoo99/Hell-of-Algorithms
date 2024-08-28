@@ -101,19 +101,29 @@
   </tr>
    <tr>
     <td align="center">
-      <img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=jieun4763" alt="곽지은 백준 티어" />
+      <a href="https://solved.ac/jieun4763">
+        <img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=jieun4763" alt="곽지은 백준 티어" />
+      </a>
     </td>
      <td align="center">
-      <img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=kong0910a" alt="공예진 백준 티어" />
+      <a href="https://solved.ac/kong0910a">
+        <img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=kong0910a" alt="공예진 백준 티어" />
+      </a>
     </td>
      <td align="center">
-      <img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=ddddd99" alt="김혜빈 백준 티어" />
+      <a href="https://solved.ac/ddddd99">
+        <img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=ddddd99" alt="김혜빈 백준 티어" />
+      </a>
     </td>
      <td align="center">
-      <img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=5hamtori" alt="오선민 백준 티어" />
+      <a href="https://solved.ac/5hamtori">
+        <img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=5hamtori" alt="오선민 백준 티어" />
+      </a>
     </td>
      <td align="center">
-      <img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=doyi9917" alt="이도이 백준 티어" />
+      <a href="https://solved.ac/doyi9917">
+        <img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=doyi9917" alt="이도이 백준 티어" />
+      </a>
     </td>
   </tr>
 </table>
