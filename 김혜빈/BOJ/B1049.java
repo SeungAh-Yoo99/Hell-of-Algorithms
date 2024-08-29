@@ -1,8 +1,8 @@
 package 김혜빈.BOJ;
 
 // 문제 링크: https://www.acmicpc.net/problem/1049
-// 시간: 84 ms
-// 메모리: 11640 KB
+// 시간: 68 ms
+// 메모리: 11584 KB
 
 import java.io.*;
 import java.util.*;
@@ -15,19 +15,14 @@ public class B1049 {
         int N = Integer.parseInt(st.nextToken()); // 끊어진 기타 줄의 개수
         int M = Integer.parseInt(st.nextToken()); // 가게 브랜드 수
 
-        int[] sixArr = new int[M]; // 브랜드 별 6묶음 가격
-        int[] oneArr = new int[M]; // 브랜드 별 개별 가격
+        int six = 1000; // 6묶음의 최대 가격
+        int one = 1000; // 개별 구매의 최대 가격
 
         for(int i=0; i<M; i++) {
             st = new StringTokenizer(br.readLine());
-            sixArr[i] = Integer.parseInt(st.nextToken());
-            oneArr[i] = Integer.parseInt(st.nextToken());
+            six = Math.min(six, Integer.parseInt(st.nextToken()));
+            one = Math.min(one, Integer.parseInt(st.nextToken()));
         }
-
-        Arrays.sort(sixArr);
-        Arrays.sort(oneArr);
-        int six = sixArr[0]; // 브랜드 별 가장 싼 6묶음 가격
-        int one = oneArr[0]; // 브랜드 별 가장 싼 개별 가격
 
         int price = 0; // 총 금액
 
