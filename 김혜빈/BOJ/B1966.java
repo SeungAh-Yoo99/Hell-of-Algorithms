@@ -17,7 +17,7 @@ class Node {
     }
 }
 
-class Main {
+public class B1966 {
     public static void main(String[] args) throws IOException {
         /* 입출력에 필요한 변수 */
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
