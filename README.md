@@ -47,13 +47,18 @@
 <table>
   <tr>
     <td align="center">
-      <a href="https://github.com/Jieun-KWAK">
-        <img src="https://github.com/Jieun-KWAK.png" alt="곽지은" width="150" height="150"/>
+      <a href="https://github.com/Kong-E">
+        <img src="https://github.com/Kong-E.png" alt="공소연" width="150" height="150"/>
       </a>
     </td>
     <td align="center">
       <a href="https://github.com/yaejinkong">
         <img src="https://github.com/yaejinkong.png" alt="공예진" width="150" height="150"/>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/Jieun-KWAK">
+        <img src="https://github.com/Jieun-KWAK.png" alt="곽지은" width="150" height="150"/>
       </a>
     </td>
     <td align="center">
@@ -74,13 +79,18 @@
   </tr>
    <tr>
     <td align="center">
-      <a href="https://github.com/Jieun-KWAK">
-        <b>곽지은</b>
+      <a href="https://github.com/Kong-E">
+        <b>공소연</b>
       </a>
     </td>
      <td align="center">
       <a href="https://github.com/yaejinkong">
         <b>공예진</b>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/Jieun-KWAK">
+        <b>곽지은</b>
       </a>
     </td>
      <td align="center">
@@ -101,13 +111,18 @@
   </tr>
    <tr>
     <td align="center">
-      <a href="https://solved.ac/jieun4763">
-        <img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=jieun4763" alt="곽지은 백준 티어" />
+      <a href="https://solved.ac/kng001016">
+        <img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=kng001016" alt="공소연 백준 티어" />
       </a>
     </td>
-     <td align="center">
+    <td align="center">
       <a href="https://solved.ac/kong0910a">
         <img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=kong0910a" alt="공예진 백준 티어" />
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://solved.ac/jieun4763">
+        <img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=jieun4763" alt="곽지은 백준 티어" />
       </a>
     </td>
      <td align="center">
@@ -134,6 +149,7 @@
 - 다른 스터디원이 자신이 풀었던 문제에 대한 코드 올렸을 경우 코드 리뷰해 보기
 - PR 규칙 지키기
 - 주석 열심히 적기(코드 리뷰 확률이 올라감)
+- 재빠르게 성장해서 관리자로 승급하기
 
 <br />
 
