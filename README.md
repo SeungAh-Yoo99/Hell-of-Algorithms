@@ -47,6 +47,11 @@
 <table>
   <tr>
     <td align="center">
+      <a href="https://github.com/riverkite0708">
+        <img src="https://github.com/riverkite0708.png" alt="강재연" width="150" height="150"/>
+      </a>
+    </td>
+    <td align="center">
       <a href="https://github.com/Kong-E">
         <img src="https://github.com/Kong-E.png" alt="공소연" width="150" height="150"/>
       </a>
@@ -63,6 +68,11 @@
     </td>
   </tr>
    <tr>
+     <td align="center">
+      <a href="https://github.com/riverkite0708">
+        <b>강재연</b>
+      </a>
+    </td>
     <td align="center">
       <a href="https://github.com/Kong-E">
         <b>공소연</b>
@@ -80,6 +90,11 @@
     </td>
   </tr>
    <tr>
+    <td align="center">
+      <a href="https://solved.ac/goldgul">
+        <img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=goldgul" alt="강재연 백준 티어" />
+      </a>
+    </td>
     <td align="center">
       <a href="https://solved.ac/kng001016">
         <img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=kng001016" alt="공소연 백준 티어" />
