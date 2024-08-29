@@ -1,9 +1,9 @@
-# 🏴‍☠️ 알고리즘 지옥
+# 🏴‍☠ 알고리즘 지옥
 > 주 6일 알고리즘 풀이를 통해 알고리즘을 습관화하기 위한 육성 스터디
 
 <br />
 
-## 🪦 스터디 규칙
+## 😈 스터디 규칙
 - <strong>주 6일</strong>(일요일 제외) 알고리즘 문제 풀이
 - 미 풀이 시 다음 날 2문제 풀이 전까지 퇴근 불가
 - 누적 3회 미 풀이 시 스터디 퇴출👼🏻
@@ -43,7 +43,7 @@
 
 <br />
 
-## 🩻 스터디원
+## 💀 스터디원
 <table>
   <tr>
     <td align="center">
@@ -59,21 +59,6 @@
     <td align="center">
       <a href="https://github.com/Jieun-KWAK">
         <img src="https://github.com/Jieun-KWAK.png" alt="곽지은" width="150" height="150"/>
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/qbobl5">
-        <img src="https://github.com/qbobl5.png" alt="김혜빈" width="150" height="150"/>
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/seonmin5">
-        <img src="https://github.com/seonmin5.png" alt="오선민" width="150" height="150"/>
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/doyi0107">
-        <img src="https://github.com/doyi0107.png" alt="이도이" width="150" height="150"/>
       </a>
     </td>
   </tr>
@@ -93,21 +78,6 @@
         <b>곽지은</b>
       </a>
     </td>
-     <td align="center">
-      <a href="https://github.com/qbobl5">
-        <b>김혜빈</b>
-      </a>
-    </td>
-     <td align="center">
-      <a href="https://github.com/seonmin5">
-        <b>오선민</b>
-      </a>
-    </td>
-     <td align="center">
-      <a href="https://github.com/doyi0107">
-        <b>이도이</b>
-      </a>
-    </td>
   </tr>
    <tr>
     <td align="center">
@@ -125,6 +95,45 @@
         <img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=jieun4763" alt="곽지은 백준 티어" />
       </a>
     </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/qbobl5">
+        <img src="https://github.com/qbobl5.png" alt="김혜빈" width="150" height="150"/>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/seonmin5">
+        <img src="https://github.com/seonmin5.png" alt="오선민" width="150" height="150"/>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/doyi0107">
+        <img src="https://github.com/doyi0107.png" alt="이도이" width="150" height="150"/>
+      </a>
+    </td>
+  </tr>
+   <tr>
+     <td align="center">
+      <a href="https://github.com/qbobl5">
+        <b>김혜빈</b>
+      </a>
+    </td>
+     <td align="center">
+      <a href="https://github.com/seonmin5">
+        <b>오선민</b>
+      </a>
+    </td>
+     <td align="center">
+      <a href="https://github.com/doyi0107">
+        <b>이도이</b>
+      </a>
+    </td>
+  </tr>
+   <tr>
      <td align="center">
       <a href="https://solved.ac/ddddd99">
         <img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=ddddd99" alt="김혜빈 백준 티어" />
