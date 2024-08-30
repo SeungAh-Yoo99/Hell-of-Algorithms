@@ -18,20 +18,23 @@ public class Main {
             String[] stringArrayA = br.readLine().split(" ");
             String[] stringArrayB = br.readLine().split(" ");
 
+            // 문자열 배열에서 정수형 배열로 변경
             int[] A = Arrays.stream(stringArrayA).mapToInt(Integer::parseInt).toArray();
             int[] B = Arrays.stream(stringArrayB).mapToInt(Integer::parseInt).toArray();
+
+            // 오름차순으로 정렬
             Arrays.sort(A);
             Arrays.sort(B);
 
             int cnt = 0;
 
+            // A와 B의 각 원소를 비교하여 A[j] > B[k]인 경우 cnt를 증가
             for (int j = 0; j < A.length; j++) {
                 for (int k = 0; k < B.length; k++) {
                     if (A[j] > B[k]) {
                         cnt++;
-
                     } else {
-                        break;
+                        break; // B[k]는 이미 A[j]보다 크거나 같음
                     }
                 }
             }
