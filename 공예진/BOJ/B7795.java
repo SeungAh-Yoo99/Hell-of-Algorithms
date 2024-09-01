@@ -1,4 +1,4 @@
-//문제 링크: https://www.notion.so/0ac9b0da1ba44c5696456ae07226b6b7
+//문제 링크: https://www.acmicpc.net/problem/7795
 //시간: 2176ms
 //메모리: 43208KB
 
