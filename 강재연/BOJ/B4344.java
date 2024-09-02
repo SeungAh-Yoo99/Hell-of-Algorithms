@@ -19,7 +19,7 @@ public class boj4344 {
 		// 총 테스트 케이스
 		int C = Integer.parseInt(br.readLine());
 		int[] arr;
-		int avg = 0;
+		int avg;
 		
 		StringTokenizer st;
 		for(int i=0; i<C; i++) {
