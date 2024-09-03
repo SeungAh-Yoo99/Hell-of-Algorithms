@@ -1,6 +1,7 @@
 //문제 링크 : https://www.acmicpc.net/problem/2607
-//시간 : 124ms
-//메모리 : 15532KB
+//시간 : 112ms
+//메모리 : 14916KB
+
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -12,17 +13,13 @@ public class Main {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         
         int wordNum = Integer.parseInt(br.readLine());
-        String InputWord = br.readLine();
-        char[] firstInputWordChars = InputWord.toCharArray();
-        Arrays.sort(firstInputWordChars);
-        String standardStr = new String(firstInputWordChars);
+        String inputWord = br.readLine();
+        String standardStr = inputWord;
         
         int answer = 0 ; 
         for(int i = 1; i < wordNum; i++){
-            InputWord = br.readLine();
-            char[] otherInputWordChars = InputWord.toCharArray();
-            Arrays.sort(otherInputWordChars);
-            String tempStr = new String(otherInputWordChars);
+            inputWord = br.readLine();
+            String tempStr = inputWord;
             String standerword = standardStr;
             
             if(standardStr.length()> tempStr.length()){
