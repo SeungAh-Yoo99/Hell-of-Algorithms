@@ -1,4 +1,7 @@
-package codingtest;
+//문제 링크: https://www.acmicpc.net/problem/2606
+//시간: 100ms
+//메모리: 14204KB
+
 import java.util.*;
 import java.io.*;
 
