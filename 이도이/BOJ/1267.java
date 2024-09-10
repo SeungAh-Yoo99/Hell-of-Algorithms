@@ -18,19 +18,8 @@ public class Main {
             StringTokenizer st = new StringTokenizer(br.readLine());
             for(int i =0; i<n; i++){
               int a = Integer.parseInt(st.nextToken());
-              young += 10;
-              min += 15;
-              if(a/30 >= 1 ){
-                young += (10*(a/30));
-              }else{
-                young += 0;
-              }
-
-              if(a/60 >= 1 ){
-                min += (15*(a/60));
-              }else{
-                min += 0;
-              }
+              young += 10 + (10*(a/30));
+              min += 15 + (15*(a/60));
 
             }
 
