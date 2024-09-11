@@ -1,5 +1,9 @@
 package 김혜빈.BOJ;
 
+// 문제 링크: https://www.acmicpc.net/problem/2018
+// 시간: 68 ms
+// 메모리: 11484 KB
+
 import java.io.*;
 
 public class B2018 {
