@@ -1,6 +1,6 @@
 // 문제 링크: https://www.acmicpc.net/problem/10025
-// 시간: 412ms
-// 메모리: 76780KB
+// 시간: 372ms
+// 메모리: 63752KB
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -36,7 +36,7 @@ public class Main {
         }
 
         int sum = answer;
-        while (left <= maxIdx) {
+        while (right <= maxIdx) {
             sum -= map.getOrDefault(left, 0);
             sum += map.getOrDefault(right, 0);
             answer = Math.max(answer, sum);
