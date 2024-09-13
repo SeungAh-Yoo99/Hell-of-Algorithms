@@ -1,0 +1,48 @@
+// 문제 링크: https://www.acmicpc.net/problem/3460
+// 시간: 112 ms
+// 메모리: 14364 KB
+
+package recursion;
+
+import java.io.*;
+
+public class boj3460 {
+	// static으로 StringBuilder 선언
+	static StringBuilder sb;
+	
+	public static void main(String[] args) throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));		
+		int T = Integer.parseInt(br.readLine());
+		
+		// 테스트 케이스 수 만큼 반복
+		for(int i=0; i<T; i++) {
+			// 한 테스트 케이스마다 sb 리셋
+			sb = new StringBuilder();
+			int N = Integer.parseInt(br.readLine());
+			// 2진법으로 변환하는 메서드 호출
+			binary(N, 0);
+		}
+	}
+
+	/**
+	 * 
+	 * @param 2진법으로 변환할 숫자
+	 * @param 자릿수
+	 */
+	public static void binary(int num, int digits) {
+		// 나머지가 1이면 자릿수를 sb에 append
+		if(num % 2 == 1) { 
+			sb.append(digits + " ");
+		}
+		
+		// 2로 나눴을때 몫이 없으면 변환 종료
+		if(num / 2 == 0) {			
+			// 재귀함수를 빠져나오면서 sb 출력
+			System.out.println(sb);
+			return;
+		}
+				
+		// 재귀 호출을 위해 num을 2로 나눈 몫을 재할당
+		binary(num /= 2, digits + 1);
+	}
+}
