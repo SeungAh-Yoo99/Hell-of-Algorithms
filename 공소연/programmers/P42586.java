@@ -6,6 +6,8 @@ import java.util.*;
 
 class Solution {
     public int[] solution(int[] progresses, int[] speeds) {
+        StringBuilder sb = new StringBuilder();
+
         Map<Integer, Integer> map = new TreeMap<>();
         int length = speeds.length;
         int[] deploy = new int[length];
