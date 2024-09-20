@@ -1,6 +1,6 @@
 문제 링크:https://www.acmicpc.net/problem/2037
-시간: 108ms
-메모리: 14368KB
+시간: 104ms
+메모리: 14280KB
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -34,37 +34,17 @@ public class Main {
           break;
         }
         for(int j=0; j<alphabet[k].length; j++){
-          if(inputMsg[i].equals(alphabet[k][j]) && j == 0){
+          if(inputMsg[i].equals(alphabet[k][j])) {
             if (temp == k) {
               sum += seqMsg;
             }
             temp = k;
-            sum += plus;
-          }else if(inputMsg[i].equals(alphabet[k][j]) && j == 1){
-            if (temp == k) {
-              sum += seqMsg;
-            }
-            temp = k;
-            sum += plus*2;
-          }else if(inputMsg[i].equals(alphabet[k][j]) && j == 2){
-            if (temp == k) {
-              sum += seqMsg;
-            }
-            temp = k;
-            sum += plus*3;
-          }else if(inputMsg[i].equals(alphabet[k][j]) && j == 3){
-            if (temp == k) {
-              sum += seqMsg;
-            }
-            temp = k;
-            sum += plus*4;
+            sum += plus * (j + 1);
           }
-
         }
       }
 
     }
-
     System.out.println(sum);
 
   }
