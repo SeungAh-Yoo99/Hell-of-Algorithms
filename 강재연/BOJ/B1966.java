@@ -1,11 +1,11 @@
-//문제 링크: https://www.acmicpc.net/problem/1996
+//문제 링크: https://www.acmicpc.net/problem/1966
 //시간: 100 ms
 //메모리: 13440 KB
 
 import java.util.*;
 import java.io.*;
 
-public class boj1996 {
+public class boj1966 {
 
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
