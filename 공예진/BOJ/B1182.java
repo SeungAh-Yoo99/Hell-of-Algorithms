@@ -1,6 +1,6 @@
 //문제 링크: https://www.acmicpc.net/problem/1182
-//시간: 116ms
-//메모리: 14456KB
+//시간: 108ms
+//메모리: 14216KB
 
 import java.util.*;
 import java.io.*;
@@ -8,7 +8,7 @@ import java.io.*;
 public class Main {
     static int N; // N개의 정수
     static int S; // 원소를 다 더한 값
-    static List<Integer> intList;
+    static int [] numbers; // 리스트 -> 배열로 변경
     static int cnt = 0;
 
     public static void main(String[] args) throws IOException {
@@ -19,10 +19,10 @@ public class Main {
         S = Integer.parseInt(arr[1]);
 
         StringTokenizer st = new StringTokenizer(br.readLine());
-        intList = new ArrayList<>();
+        numbers = new int[N];
 
-        while (st.hasMoreTokens()) {
-            intList.add(Integer.parseInt(st.nextToken()));
+        for (int i = 0; i < N; i++) {
+            numbers[i] = Integer.parseInt(st.nextToken());
         }
 
         backtracking(0, 0);
@@ -38,6 +38,6 @@ public class Main {
         }
 
         backtracking(index + 1, sum); // 더하지 않는 경우
-        backtracking(index + 1, sum + intList.get(index)); // 더하는 경우
+        backtracking(index + 1, sum + numbers[index]); // 더하는 경우
     }
 }
