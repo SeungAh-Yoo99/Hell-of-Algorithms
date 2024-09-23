@@ -1,6 +1,6 @@
-문제 링크: https://www.acmicpc.net/problem/1541
-시간: 64 ms
-메모리: 11545 KB
+//문제 링크: https://www.acmicpc.net/problem/1541
+//시간: 64 ms
+//메모리: 11545 KB
 
 import java.io.BufferedReader;
 import java.io.IOException;
