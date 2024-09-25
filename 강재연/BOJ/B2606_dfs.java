@@ -34,7 +34,6 @@ public class boj2606 {
 	
 	static void dfs(int index) {
 		visited[index] = true;
-		System.out.println(index + " -> ");
 		for(int i=0; i<N; i++) {
 			if(graph[index][i]==1 && !visited[i]) {
 				cnt++;
