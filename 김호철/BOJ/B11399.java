@@ -49,3 +49,4 @@ public class B11399 {
         System.out.println(totalWait);
     }
 }
+
