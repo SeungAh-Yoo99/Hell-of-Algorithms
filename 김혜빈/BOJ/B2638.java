@@ -38,7 +38,7 @@ public class B2638 {
                     int r = target[0] + dy[k];
                     int c = target[1] + dx[k];
                     if (r >= 0 && c >= 0 && r < N && c < M && !visited[r][c]) { // 방문하지 않은 인덱스의 경우
-                        if(arr[r][c] == 0) { // 치즈가 아닌 경우
+                        if (arr[r][c] == 0) { // 치즈가 아닌 경우
                             queue.add(new int[] {r, c});
                             visited[r][c] = true;
                         } else { // 치즈인 경우
@@ -52,13 +52,13 @@ public class B2638 {
             for (int i = 0; i < N; i++) {
                 for (int j = 0; j < M; j++) {
                     if (arr[i][j] == 1) {
-                        if(cnt[i][j] >= 2) arr[i][j] = 0; // 공기 유출이 카운트 2이상인 경우 치즈 녹
+                        if (cnt[i][j] >= 2) arr[i][j] = 0; // 공기 유출이 카운트 2이상인 경우 치즈 녹
                         flag = true;
                     }
                 }
             }
 
-            if(flag) time ++;
+            if (flag) time++;
         }
 
         System.out.println(time);
