@@ -11,16 +11,21 @@ public class boj2751 {
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 		
 		int T = Integer.parseInt(br.readLine());
-		boolean[] abs = new boolean[2000001];
+		boolean[] abs = new boolean[2000001]; // 음수를 포함해서 1000000*2 크기의 배열 선언
 		
 		
 		for(int i=0; i<T; i++) {
+			// 입력값에 음수도 있기 때문에 + 1000000 
 			int index = Integer.parseInt(br.readLine()) + 1000000;
+			// 해당하는 인덱스값에 true 처리
 			abs[index] = true;
 		}
 		
 		for(int j=0; j<abs.length; j++) {
+			// 해당 인덱스가 참일경우
 			if(abs[j]) {
+				// 배열에 넣을때 +1000000을 했기 때문에 
+				// 출력할땐 -1000000
 				bw.write(j-1000000 + "\n");
 			}
 		}
