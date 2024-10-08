@@ -1,0 +1,21 @@
+//문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/12980
+//시간: 0.03ms
+//메모리: 87MB
+
+import java.util.*;
+
+public class Solution {
+    public int solution(int n) {
+        int ans = 0;
+        
+        while(n>=1){
+            if(n%2==0){
+                n /= 2; // 짝수라면 반 순간이동 전 상태로 이동
+                continue;
+            }
+            n--; //홀수라면 -1한 뒤 짝수로 만들고
+            ans++; // 건전지 1 사용
+        }
+        return ans;
+    }
+}
