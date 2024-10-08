@@ -25,10 +25,12 @@ public class boj11650 {
 
 			@Override
 			public int compare(Integer[] o1, Integer[] o2) {
-				// x좌표를 기준으로 오름차순 정렬
+				// x좌표가 다르면 
 				if(o1[0].compareTo(o2[0]) != 0) {
+					// x좌표를 기준으로 오름차순 정렬
 					return o1[0].compareTo(o2[0]);
 				}
+				// x좌표가 같으면
 				// y좌표를 기준으로 오름차순 정렬
 				return o1[1].compareTo(o2[1]);
 			}
