@@ -4,7 +4,7 @@ package 김혜빈.programmers;
 
 import java.util.*;
 
-public class P12927 {
+public class P12927_hip {
     public long solution(int n, int[] works) {
         long answer = 0;
 
