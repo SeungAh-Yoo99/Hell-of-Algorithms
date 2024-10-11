@@ -1,0 +1,38 @@
+문제 링크:https://www.acmicpc.net/problem/2578
+시간: ms
+메모리: KB
+
+import java.io.*;
+
+
+public class Main {
+  public static void main(String[] args) throws IOException {
+         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+         String[] bingo;
+         String[][] bingo2 = new String[5][5];
+         String[] call;
+         String[][] call2 = new String[5][5];
+         for(int i=0; i<10; i++){
+            if(i<5){
+              bingo = br.readLine().split(" ");
+              bingo2[i] = bingo;
+            }else{
+              call = br.readLine().split(" ");
+              call2[i-5] = call;
+            }
+         }
+
+
+        for(int i=0; i<5; i++){
+          for(int k=0; k<5; k++){
+             if(call2[i][k] == bingo2  )
+          }
+        }
+
+
+
+
+
+  }
+}
