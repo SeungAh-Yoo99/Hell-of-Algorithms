@@ -35,16 +35,17 @@ public class B1753 {
         Arrays.fill(result, Integer.MAX_VALUE);
         result[S] = 0;
 
+        /* 다익스트라 알고리즘 */
         Queue<int[]> pq = new PriorityQueue<>((a, b) -> a[1] - b[1]);
         pq.add(new int[] {S, 0});
 
         while (!pq.isEmpty()) {
-            int[] now = pq.poll();
-            if (result[now[0]] < now[1]) continue;
-            for (int[] arr : graph.get(now[0])) {
-                if (result[arr[0]] > result[now[0]] + arr[1]) {
-                    result[arr[0]] = result[now[0]] + arr[1];
-                    pq.add(new int[] {arr[0], result[arr[0]]});
+            int[] now = pq.poll(); // 현재 위치
+            if (result[now[0]] < now[1]) continue; // 지금이 최단이 아니면 건너뛰기
+            for (int[] arr : graph.get(now[0])) { // 현재 위치에서 갈 수 있는 노드 순회
+                if (result[arr[0]] > result[now[0]] + arr[1]) { // 지금이 최단인 경우만 수행
+                    result[arr[0]] = result[now[0]] + arr[1]; // 더 작은 값으로 업데이트
+                    pq.add(new int[] {arr[0], result[arr[0]]}); // 더 작아진 값을 pq에 추가
                 }
             }
         }
