@@ -23,8 +23,8 @@ public class boj11659 {
 			// prefixSum[0] = 입력값
 			// prefuxSum[1~] = 이전값 + 입력값 = 누적합 
 			prefixSum[i] = i == 0 ? 
-							Integer.parseInt(st.nextToken()) :
-							prefixSum[i-1] + Integer.parseInt(st.nextToken()); 
+					Integer.parseInt(st.nextToken()) :
+					prefixSum[i-1] + Integer.parseInt(st.nextToken()); 
 		}		
 		
 		// 구간합 구하는 부분
