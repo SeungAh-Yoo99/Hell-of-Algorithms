@@ -34,7 +34,20 @@ public class B1753 {
         result = new int[V + 1];
         Arrays.fill(result, Integer.MAX_VALUE);
         result[S] = 0;
-        dfs(S, 0);
+
+        Queue<int[]> pq = new PriorityQueue<>((a, b) -> a[1] - b[1]);
+        pq.add(new int[] {S, 0});
+
+        while (!pq.isEmpty()) {
+            int[] now = pq.poll();
+            if (result[now[0]] < now[1]) continue;
+            for (int[] arr : graph.get(now[0])) {
+                if (result[arr[0]] > result[now[0]] + arr[1]) {
+                    result[arr[0]] = result[now[0]] + arr[1];
+                    pq.add(new int[] {arr[0], result[arr[0]]});
+                }
+            }
+        }
 
         for (int i = 1; i <= V; i++) {
             if (result[i] == Integer.MAX_VALUE) sb.append("INF").append("\n");
@@ -43,12 +56,5 @@ public class B1753 {
 
         bw.append(sb.toString());
         bw.close();
-    }
-
-    private static void dfs(int idx, int cnt) {
-        for (int[] arr : graph.get(idx)) {
-            result[arr[0]] = Math.min(result[arr[0]], cnt + arr[1]);
-            dfs(arr[0], cnt + arr[1]);
-        }
     }
 }
