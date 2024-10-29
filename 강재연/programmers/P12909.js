@@ -3,9 +3,8 @@
 // 메모리: 33.6MB
 
 function solution(s){
-    let bracket = [...s];
     let balance = 0;
-    bracket.forEach((b, i) => {
+    [...s].forEach((b, i) => {
         if(balance < 0) return false;
         
         if(b == "(") balance++;
