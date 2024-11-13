@@ -1,0 +1,21 @@
+문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/12980
+시간: 0.06ms
+메모리:33.4MB
+
+function solution(n)
+{ 
+    let result = 0;
+    let copyN = n;
+    while(copyN > 0){
+        if(copyN%2 == 0){
+            copyN /= 2
+        }else{
+            result++;
+            copyN -= 1;
+        }
+    }
+    
+    return result;
+    
+   
+}
