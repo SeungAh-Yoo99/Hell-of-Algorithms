@@ -1,0 +1,23 @@
+문제 링크:https://school.programmers.co.kr/learn/courses/30/lessons/131705
+시간: 13.02ms 
+메모리: 34.4MB
+
+function solution(number) {
+    const combination = (items, k, list, result) => {
+        if(items.length === 3){
+            result.push(items);
+            return;
+        }
+        
+        for(let i = k; i<list.length; i++){
+            console.log(items,k)
+            combination([...items,list[i]],i+1,list,result)     
+        }
+    }
+    
+    
+    let answer = [];
+    combination([],0,number,answer)
+    return answer.filter((item) => item.reduce((acc,i) => acc+i,0) === 0).length
+    
+}
