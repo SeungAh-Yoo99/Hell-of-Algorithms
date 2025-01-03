@@ -115,11 +115,6 @@
 <table>
   <tr>
     <td align="center">
-      <a href="https://github.com/rlfrkdms1">
-        <img src="https://github.com/rlfrkdms1.png" alt="길가은" width="150" height="150"/>
-      </a>
-    </td>
-    <td align="center">
       <a href="https://github.com/HoChoRoo">
         <img src="https://github.com/HoChoRoo.png" alt="김호철" width="150" height="150"/>
       </a>
@@ -136,11 +131,6 @@
     </td>
   </tr>
    <tr>
-    <td align="center">
-      <a href="https://github.com/rlfrkdms1">
-        <b>길가은</b>
-      </a>
-    </td>
      <td align="center">
       <a href="https://github.com/HoChoRoo">
         <b>김호철</b>
@@ -158,11 +148,6 @@
     </td>
   </tr>
    <tr>
-    <td align="center">
-      <a href="https://solved.ac/rlfrkdms1">
-        <img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=rlfrkdms1" alt="길가은 백준 티어" />
-      </a>
-    </td>
      <td align="center">
       <a href="https://solved.ac/rttkhc">
         <img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=rttkhc" alt="김호철 백준 티어" />
