@@ -1,0 +1,24 @@
+문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/42584
+시간: 0.68ms
+메모리: 33.5MB
+
+function solution(prices) {
+    let result = Array(prices.length).fill(0) 
+
+    for(let i=0; i<prices.length; i++){
+            for(let k=i+1; k<prices.length; k++){
+                if(prices[i]<=prices[k]){    
+                    result[i]++
+                  }        
+                  else{
+                      if(i != prices.length){
+                          result[i]++;
+                          break;
+                      }
+                      break;
+                 }
+            }  
+    }
+    
+        return result
+}
