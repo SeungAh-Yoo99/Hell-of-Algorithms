@@ -1,6 +1,6 @@
 // 링크: https://school.programmers.co.kr/learn/courses/30/lessons/42577
-// 시간: 330.86ms
-// 메모리: 93.3MB
+// 시간: 35.18ms
+// 메모리: 92MB
 
 function solution(phone_book) {
     let answer = true;
@@ -8,18 +8,19 @@ function solution(phone_book) {
     
     // 정렬을 해야 접두어를 먼저 map에 넣을 수 있음
     phone_book.sort((a, b) => a.length - b.length);
-
+    const minLength = phone_book[0].length;
+    
     map.set(phone_book[0]);
     
+    let cur;
     for (let i = 1; i < phone_book.length; i++) {
-        const cur = phone_book[i];
-        for (let j = 1; j < cur.length; j++) {
+        cur = phone_book[i];
+        for (let j = minLength; j < cur.length; j++) {
             if (map.has(cur.slice(0, j))) {
                 return false;
-            } else {
-                map.set(cur);
             }
         }
+        map.set(cur);
     }
     
     return answer;
