@@ -1,15 +1,15 @@
 //문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/42587
-//시간: 19.48ms
-//메모리: 79.3MB
+//시간: 6.17ms
+//메모리: 90.5MB
 
 import java.util.*;
 
 class Solution {
     public int solution(int[] priorities, int location) {
-        Queue<String> queue = new LinkedList<>();
+        Queue<Integer> queue = new LinkedList<>();
         for (int i = 0; i < priorities.length; i++) {
-            String s = priorities[i] + "," + i;
-            queue.offer(s);
+            String s = Integer.toString(priorities[i]) + Integer.toString(i);
+            queue.offer(Integer.parseInt(s));
         }
 
         Integer[] arr = Arrays.stream(priorities).boxed().toArray(Integer[]::new);
@@ -18,10 +18,9 @@ class Solution {
         int idx = 0;
         int answer = 0;
         while (!queue.isEmpty()) {
-            String str = queue.poll();
-            String[] strArr = str.split(",");
-            int priority = Integer.parseInt(strArr[0]); // 우선순위
-            int qLocation = Integer.parseInt(strArr[1]); // 위치
+            String str = Integer.toString(queue.poll());
+            int priority = Integer.parseInt(str.substring(0, 1)); // 우선순위
+            int qLocation = Integer.parseInt(str.substring(1)); // 위치
 
             if (priority == arr[idx]) {
                 idx++;
@@ -30,7 +29,7 @@ class Solution {
                     break;
                 }
             } else {
-                queue.offer(str);
+                queue.offer(Integer.parseInt(str));
             }
         }
 
