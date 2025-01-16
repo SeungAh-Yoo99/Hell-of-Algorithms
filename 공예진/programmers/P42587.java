@@ -1,4 +1,4 @@
-//문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/42587?language=java
+//문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/42587
 //시간: 1.74ms
 //메모리: 81.4MB
 
