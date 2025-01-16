@@ -1,39 +1,36 @@
-//문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/181908
-//시간: 6.17ms
-//메모리: 90.5MB
+//문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/42587
+//시간: 1.74ms
+//메모리: 81.4MB
 
 import java.util.*;
+import java.io.*;
 
 class Solution {
     public int solution(int[] priorities, int location) {
-        Queue<Integer> queue = new LinkedList<>();
+        Queue<int[]> queue = new LinkedList<>();
+        PriorityQueue<Integer> pq = new PriorityQueue<>(Collections.reverseOrder());
+
         for (int i = 0; i < priorities.length; i++) {
-            String s = Integer.toString(priorities[i]) + Integer.toString(i);
-            queue.offer(Integer.parseInt(s));
+            queue.add(new int[] {priorities[i], i}); // (우선순위, 인덱스)
+            pq.add(priorities[i]);
         }
 
-        Integer[] arr = Arrays.stream(priorities).boxed().toArray(Integer[]::new);
-        Arrays.sort(arr, Collections.reverseOrder()); // 내림차순 정렬
+        int cnt = 0;
 
-        int idx = 0;
-        int answer = 0;
         while (!queue.isEmpty()) {
-            String str = Integer.toString(queue.poll());
-            int priority = Integer.parseInt(str.substring(0, 1)); // 우선순위
-            int qLocation = Integer.parseInt(str.substring(1)); // 위치
+            int[] selected = queue.poll();
 
-            if (priority == arr[idx]) {
-                idx++;
-                answer++;
-                if (location == qLocation) {
+            if (selected[0] == pq.peek()) {
+                pq.poll();
+                cnt++;
+
+                if (selected[1] == location) {
                     break;
                 }
             } else {
-                queue.offer(Integer.parseInt(str));
+                queue.add(selected);
             }
         }
-
-        return answer;
-
+        return cnt;
     }
 }

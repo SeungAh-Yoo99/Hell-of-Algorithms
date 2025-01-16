@@ -115,11 +115,6 @@
 <table>
   <tr>
     <td align="center">
-      <a href="https://github.com/qbobl5">
-        <img src="https://github.com/qbobl5.png" alt="김혜빈" width="150" height="150"/>
-      </a>
-    </td>
-    <td align="center">
       <a href="https://github.com/HoChoRoo">
         <img src="https://github.com/HoChoRoo.png" alt="김호철" width="150" height="150"/>
       </a>
@@ -137,32 +132,22 @@
   </tr>
    <tr>
      <td align="center">
-      <a href="https://github.com/qbobl5">
-        <b>김혜빈</b>
-      </a>
-    </td>
-     <td align="center">
       <a href="https://github.com/HoChoRoo">
         <b>김호철</b>
       </a>
     </td>
-     <td align="center">
+    <td align="center">
       <a href="https://github.com/seonmin5">
         <b>오선민</b>
       </a>
     </td>
-     <td align="center">
+    <td align="center">
       <a href="https://github.com/doyi0107">
         <b>이도이</b>
       </a>
     </td>
   </tr>
    <tr>
-     <td align="center">
-      <a href="https://solved.ac/ddddd99">
-        <img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=ddddd99" alt="김혜빈 백준 티어" />
-      </a>
-    </td>
      <td align="center">
       <a href="https://solved.ac/rttkhc">
         <img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=rttkhc" alt="김호철 백준 티어" />
@@ -173,7 +158,7 @@
         <img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=5hamtori" alt="오선민 백준 티어" />
       </a>
     </td>
-     <td align="center">
+    <td align="center">
       <a href="https://solved.ac/doyi9917">
         <img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=doyi9917" alt="이도이 백준 티어" />
       </a>
