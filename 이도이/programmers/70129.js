@@ -1,6 +1,6 @@
-문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/70129
-시간: 7.04ms
-메모리: 38.3MB
+//문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/70129
+//시간: 7.04ms
+//메모리: 38.3MB
 
 function solution(s) {
       let result = [0,0]
