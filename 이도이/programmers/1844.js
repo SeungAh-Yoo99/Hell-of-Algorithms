@@ -1,6 +1,6 @@
-문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/1844?language=javascript
-시간: 0.27ms
-메모리: 33.3MB
+//문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/1844?language=javascript
+//시간: 0.27ms
+//메모리: 33.3MB
 
 function solution(maps) {
      let n = maps.length;
