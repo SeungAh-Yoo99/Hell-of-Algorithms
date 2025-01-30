@@ -12,6 +12,7 @@ function solution(numbers) {
         }
         
         for(let i=0; i<remain.length; i++){
+            // 현재 선택한 문자를 제외한 나머지 문자열을 remain에 넘기기 
             totalMix(current + remain[i], remain.slice(0,i) + remain.slice(i+1))
         }
     }
