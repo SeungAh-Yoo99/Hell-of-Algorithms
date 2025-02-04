@@ -1,0 +1,13 @@
+문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/135808
+시간: 205.61ms
+메모리: 83.9MB
+
+function solution(k, m, score) {
+    let sortedScore = score.sort((a,b) => b-a);
+    let count = 0
+    for(let i=(m-1); i<score.length; i+=m){
+        count += (sortedScore[i]*m)
+    }
+    
+    return count
+}
