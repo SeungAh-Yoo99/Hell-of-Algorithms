@@ -1,6 +1,6 @@
-문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/12913
-시간: 2.13ms
-메모리:34.1MB
+//문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/12913
+//시간: 2.13ms
+//메모리:34.1MB
 
 
 
