@@ -1,6 +1,6 @@
-문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/17680#
-시간: 55.82ms
-메모리: 41.9MB
+//문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/17680#
+//시간: 55.82ms
+//메모리: 41.9MB
 
 function solution(cacheSize, cities) {
    // 캐시크기가 0인 겨우 
