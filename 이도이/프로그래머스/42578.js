@@ -1,6 +1,6 @@
-문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/42578
-시간: 0.29ms
-메모리: 33.3MB
+//문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/42578
+//시간: 0.29ms
+//메모리: 33.3MB
 
 function solution(clothes) {
     let object = {}, cnt = 1
