@@ -1,6 +1,6 @@
-문제 링크: https://www.acmicpc.net/problem/1024
-시간: 96ms
-메모리: 9604KB
+//문제 링크: https://www.acmicpc.net/problem/1024
+//시간: 96ms
+//메모리: 9604KB
 
 let input = require('fs').readFileSync('1024.javascript/index.txt').toString().split(" ").map(Number);
 let sum = input[0];
