@@ -1,6 +1,6 @@
-문제 링크: https://www.acmicpc.net/problem/2578
-시간: 104
-메모리: 14180
+//문제 링크: https://www.acmicpc.net/problem/2578
+//시간: 104
+//메모리: 14180
 
 import java.io.*;
 import java.util.Arrays;
