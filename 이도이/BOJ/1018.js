@@ -1,6 +1,6 @@
-문제 링크: https://www.acmicpc.net/problem/1018
-시간: 176ms
-메모리: 11516KB
+//문제 링크: https://www.acmicpc.net/problem/1018
+//시간: 176ms
+//메모리: 11516KB
 
 let input = require("fs").readFileSync("/dev/stdin").toString().split("\n");
 
