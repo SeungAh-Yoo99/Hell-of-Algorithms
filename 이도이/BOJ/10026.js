@@ -1,6 +1,6 @@
-문제 링크:https://www.acmicpc.net/problem/10026
-시간: 128ms
-메모리: 10864KB
+//문제 링크:https://www.acmicpc.net/problem/10026
+//시간: 128ms
+//메모리: 10864KB
 
 let fs = require("fs").readFileSync("10026.javascript/index.txt").toString().split("\n");
 
