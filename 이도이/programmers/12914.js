@@ -1,6 +1,6 @@
-문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/12914
-시간:0.38ms
-메모리:33.6MB
+//문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/12914
+//시간:0.38ms
+//메모리:33.6MB
 
 function solution(n) {
      if(n == 1 || n == 2) return n;
