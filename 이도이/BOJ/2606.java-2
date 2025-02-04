@@ -1,6 +1,6 @@
-문제 링크:https://www.acmicpc.net/source/84649290
-시간: 100ms
-메모리: 14120
+//문제 링크:https://www.acmicpc.net/source/84649290
+//시간: 100ms
+//메모리: 14120
 
 import java.io.BufferedReader;
 import java.io.IOException;
