@@ -1,6 +1,6 @@
-문제 링크: https://www.acmicpc.net/problem/1449
-시간: 100ms
-메모리: 14340KB
+//문제 링크: https://www.acmicpc.net/problem/1449
+//시간: 100ms
+//메모리: 14340KB
 
 import java.io.*;
 import java.lang.reflect.Array;
