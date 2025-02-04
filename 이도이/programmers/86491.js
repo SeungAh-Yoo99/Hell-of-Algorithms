@@ -1,6 +1,6 @@
-문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/86491
-시간: 3.61ms
-메모리: 39MB
+//문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/86491
+//시간: 3.61ms
+//메모리: 39MB
 
 function solution(sizes) {
        let maxArr = [];
