@@ -1,6 +1,6 @@
-문제 링크: https://softeer.ai/app/assessment/index.html?xid=289621&xsrfToken=FR9dpdmmmlCkMaU8XmMeHx8RaZE5pJwo&testType=practice
-시간: 0.038
-메모리: 6.82MB
+//문제 링크: https://softeer.ai/app/assessment/index.html?xid=289621&xsrfToken=FR9dpdmmmlCkMaU8XmMeHx8RaZE5pJwo&testType=practice
+//시간: 0.038
+//메모리: 6.82MB
 
 
 const input = require("fs").readFileSync("/dev/stdin").toString().split(" ");
