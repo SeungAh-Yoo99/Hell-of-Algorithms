@@ -1,6 +1,6 @@
-문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/138476
-시간: 92.44ms
-메모리: 66.5MB
+//문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/138476
+//시간: 92.44ms
+//메모리: 66.5MB
 
 function solution(k, tangerine) {
     let map = {},cnt = 0;
