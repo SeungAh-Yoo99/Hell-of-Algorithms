@@ -1,6 +1,6 @@
-문제 링크: https://www.acmicpc.net/problem/1003
-시간: 104ms
-메모리: 9760KB
+//문제 링크: https://www.acmicpc.net/problem/1003
+//시간: 104ms
+//메모리: 9760KB
 
 let input = require("fs")
   .readFileSync("1003.javascript/index.txt")
