@@ -1,6 +1,6 @@
-문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/12985
-시간: 0.18ms
-메모리: 33.4MB
+//문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/12985
+//시간: 0.18ms
+//메모리: 33.4MB
 
 function solution(n,a,b){
     let answer = 1;
