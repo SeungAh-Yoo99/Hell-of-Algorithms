@@ -1,6 +1,6 @@
-문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/161989
-시간: 2.69ms
-메모리: 37.8MB
+//문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/161989
+//시간: 2.69ms
+//메모리: 37.8MB
 
 function solution(n, m, section) {
    let result = 0;
