@@ -1,6 +1,6 @@
-문제 링크: https://softeer.ai/app/assessment/index.html?xid=313332&xsrfToken=AqT8LDWCcdgsAzdnka79luUY4CbVHtLB&testType=practice
-시간: 2.373초
-메모리: 238.94MB
+//문제 링크: https://softeer.ai/app/assessment/index.html?xid=313332&xsrfToken=AqT8LDWCcdgsAzdnka79luUY4CbVHtLB&testType=practice
+//시간: 2.373초
+//메모리: 238.94MB
 
 let input = require('fs').readFileSync('/dev/stdin').toString().split("\n");
 let arr = [];
