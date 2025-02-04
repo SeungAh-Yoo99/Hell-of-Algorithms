@@ -1,6 +1,6 @@
-문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/42842
-시간: 0.24ms
-메모리: 33.5MB
+//문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/42842
+//시간: 0.24ms
+//메모리: 33.5MB
 
 function solution(brown, yellow) {
     let a,result = [];
