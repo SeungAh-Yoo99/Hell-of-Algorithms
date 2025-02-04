@@ -1,6 +1,6 @@
-문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/42885
-시간:2.47ms
-메모리: 35.6MB
+//문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/42885
+//시간:2.47ms
+//메모리: 35.6MB
 
 function solution(people, limit) {
     let result = 0; 
