@@ -1,6 +1,6 @@
-문제 링크:https://school.programmers.co.kr/learn/courses/30/lessons/12973
-시간: 33.05ms
-메모리: 40MB
+//문제 링크:https://school.programmers.co.kr/learn/courses/30/lessons/12973
+//시간: 33.05ms
+//메모리: 40MB
 
 function solution(s)
 {
