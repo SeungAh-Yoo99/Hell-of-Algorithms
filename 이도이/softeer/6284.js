@@ -1,6 +1,6 @@
-문제 링크: https://softeer.ai/practice/6284
-시간:0.196 초
-메모리: 10.29 MB
+//문제 링크: https://softeer.ai/practice/6284
+//시간:0.196 초
+//메모리: 10.29 MB
 
 let input = require('fs').readFileSync('/dev/stdin').toString().trim().split(" ").map(Number);
 
