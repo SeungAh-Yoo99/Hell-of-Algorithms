@@ -1,0 +1,19 @@
+문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/42747
+시간: 0.69ms
+메모리:33.6MB
+
+function solution(citations) {
+    let answer = 0;
+    citations.sort((a,b) => b-a);
+    let arr = [];
+    
+    for(let i=0; i< citations.length; i++){
+         arr.push(citations[i]);
+         if(citations[i] < arr.length){ 
+            break;
+         }
+         answer++;
+    }
+    
+    return answer;
+}
