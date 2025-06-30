@@ -31,7 +31,6 @@ public class B18115 {
             if (skill == 1) {
                 dq.addFirst(card);
             } else if (skill == 2) {
-                // 최악의 경우 N**2: ((LinkedList<Integer>) dq).add(1, card);
                 int first = dq.pollFirst();
                 dq.addFirst(card);
                 dq.addFirst(first);
@@ -40,6 +39,7 @@ public class B18115 {
             }
         }
 
+        // 최악의 경우 N**2: ((LinkedList<Inte
         StringBuilder sb = new StringBuilder();
         for (int x : dq) {
             sb.append(x).append(" ");
